@@ -16,7 +16,15 @@
     <Button
       label="Visite nosso site"
       color="brown-6"
-      style="width: 416px; height: 64px; top: -4.375rem; left: 72.875rem; font-size: 1.375rem; font-family: 'Lato'; "
+      text="white"
+      style="
+        width: 416px;
+        height: 64px;
+        top: -4.375rem;
+        left: 72.875rem;
+        font-size: 1.375rem;
+        font-family: 'Lato';
+      "
     />
     <div class="rede-social">
       <q-icon class="sociais youtube" name="fab fa-youtube" title="youtube" />
@@ -46,6 +54,7 @@
   <Livros />
   <CardTreinamento />
   <Escritores />
+  <Publique />
   <Footer />
 </template>
 
@@ -53,12 +62,22 @@
 import Navbar from "../components/Navbar.vue";
 import Button from "../components/Button.vue";
 import Video from "../components/Video.vue";
-import Livros from "../components/Livros.vue"
-import CardTreinamento from "../components/Card-Treinamento.vue"
-import Escritores from "../components/Escritores.vue"
-import Footer from "../components/Footer.vue"
+import Livros from "../components/Livros.vue";
+import CardTreinamento from "../components/Card-Treinamento.vue";
+import Escritores from "../components/Escritores.vue";
+import Publique from "../components/Publique.vue"
+import Footer from "../components/Footer.vue";
 export default {
-  components: { Navbar, Button, Video, Livros, CardTreinamento, Escritores, Footer },
+  components: {
+    Navbar,
+    Button,
+    Video,
+    Livros,
+    CardTreinamento,
+    Escritores,
+    Publique,
+    Footer,
+  },
 };
 </script>
 <style lang="scss" scoped>

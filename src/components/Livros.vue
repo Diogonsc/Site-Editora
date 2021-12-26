@@ -12,9 +12,9 @@
         <img src="../assets/img/download.png" alt="livro" />
         <p class="p-livros">MITOLOGIA</p>
         <Button
-          class="text-brown-6"
           label="Saiba mais"
-          color="brown-6"
+          text="brown-6"
+          color="white"
           style="
             width: 181px;
             height: 58px;
@@ -103,7 +103,7 @@ export default {
     }
 
     .card-livros:hover {
-      border: 1px solid #856c55;
+      border: 2px solid #856c55;
     }
 
     .card-livros img {

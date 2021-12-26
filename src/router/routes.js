@@ -1,12 +1,21 @@
 const routes = [
+ 
   {
     path: "/",
-    component: () => import("layouts/MainLayout.vue"),
+    name: "Home",
+    component: () => import("pages/Home.vue"),
   },
 
-  { path: "/home", component: () => import("pages/Home.vue") },
-  { path: "/sobre", component: () => import("pages/Sobre.vue") },
-  { path: "/blog", component: () => import("pages/Blog.vue") },
+  {
+    path: "/sobre",
+    name: "Sobre",
+    component: () => import("pages/Sobre.vue"),
+  },
+  {
+    path: "/blog",
+    name: "Blog",
+    component: () => import("pages/Blog.vue"),
+  },
 
   {
     path: "/:catchAll(.*)*",
