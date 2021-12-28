@@ -94,11 +94,11 @@ export default {
   padding: 30px 0px;
   a {
     text-decoration: none;
-    color: #cdcdcd;
+    color: #ffffff;
     opacity: 0.5;
 
     &.router-link-exact-active {
-      color: #fefbfb;
+      color: #ffffff;
       border-bottom: 2px solid #856c55;
     }
   }

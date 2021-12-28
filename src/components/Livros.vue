@@ -12,6 +12,7 @@
         <img src="../assets/img/download.png" alt="livro" />
         <p class="p-livros">MITOLOGIA</p>
         <Button
+          class="button"
           label="Saiba mais"
           text="brown-6"
           color="white"
@@ -81,6 +82,7 @@ export default {
     justify-content: space-evenly;
     padding: 0px 300px;
     margin-top: 150px;
+
     .card-livros {
       display: flex;
       flex-direction: column;
