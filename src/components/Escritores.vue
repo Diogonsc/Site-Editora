@@ -10,15 +10,18 @@
     <div class="container-carousel">
       <q-carousel
         v-model="slide"
+        transition-prev="slide-right"
+        transition-next="slide-left"
         swipeable
         animated
+        arrows
         control-color="brown-6"
         navigation
         padding
         height="450px"
         class="bg-grey-1 q-carousel"
       >
-        <q-carousel-slide :name="1" class="column no-wrap" v-for="n in 5" :key="n">
+        <q-carousel-slide :name="1" class="column no-wrap">
           <div
             class="
               carousel
@@ -48,7 +51,7 @@
             />
           </div>
         </q-carousel-slide>
-        <!-- <q-carousel-slide :name="2" class="column no-wrap">
+        <q-carousel-slide :name="2" class="column no-wrap">
           <div
             class="
               carousel
@@ -77,7 +80,7 @@
               src="../assets/img/foto-4.png"
             />
           </div>
-        </q-carousel-slide> -->
+        </q-carousel-slide>
       </q-carousel>
     </div>
   </div>

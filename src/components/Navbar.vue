@@ -8,11 +8,11 @@
           <router-link class="menu-item" to="/blog">Blog</router-link>
         </div>
         <div class="search">
-      <q-input dark borderless class="input-search">
-        <template v-slot:append>
-          <q-icon class="icon" name="search" size="md" />
-        </template>
-      </q-input>
+          <q-input dark borderless class="input-search">
+            <template v-slot:append>
+              <q-icon class="icon" name="search" size="md" />
+            </template>
+          </q-input>
     </div>
       </div>
     </div>
@@ -83,13 +83,13 @@ export default {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  /* border: 2px solid red; */
 }
 
 .nav {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  gap: 250px;
   font-family: "Inter", sans-serif;
   padding: 30px 0px;
   a {

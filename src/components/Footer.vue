@@ -50,7 +50,7 @@
           label="ENVIAR"
           color="brown-6"
           text="white"
-          style="width: 82px; height: 40px"
+          style="width: 82px; height: 50px"
         />
       </div>
     </div>
@@ -102,6 +102,7 @@ export default {
       triggerPositive () {
         $q.notify({
           type: 'positive',
+          position: 'top-right',
           message: 'E-mail cadastrado! Agora você está por dentro das novidades.'
         })
       },
@@ -200,15 +201,15 @@ export default {
     }
 
     .input-novidades {
-      width: 300px;
+      width: 420px;
       display: flex;
       justify-content: center;
       align-items: center;
     }
 
     .input {
-      width: 300px;
-      height: 40px;
+      width: 420px;
+      height: 50px;
       background-color: #ffffff;
       border: none;
     }
